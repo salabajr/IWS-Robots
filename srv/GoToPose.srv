@@ -1,0 +1,4 @@
+geometry_msgs/PoseStamped goal_pose
+duration time_from_start
+---
+bool success

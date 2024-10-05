@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="sequences_path" default="$(find ur3_leader_follower)/config/sequences.yaml"/>
+  <param name="sequences_path" value="$(arg sequences_path)"/>
+
+  <arg name="record_camera" default="false"/>
+  <param name="record_camera" value="$(arg record_camera)"/>
+  
+  <arg name="detect_motion" default="false"/>
+  <param name="detect_motion" value="$(arg detect_motion)"/>
+
+  <arg name="test_name" default="test"/>
+  <param name="test_name" value="$(arg test_name)"/>
+
+  <node name="supervisor_node" pkg="ur3_leader_follower" type="supervisor_node.py" output="screen"/>
+
+  <arg name="enable_motion" default="false"/>
+  <param name="enable_motion" value="$(arg enable_motion)"/>
+
+  <arg name="motion_period" default="10"/>
+
+  <group if="$(arg enable_motion)">
+    <param name="motion_period" value="$(arg motion_period)"/>
+    <node name="motion_trigger_node" pkg="ur3_leader_follower" type="motion_trigger_node.py" output="screen"/>
+  </group>
+</launch>

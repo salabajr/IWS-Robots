@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="ee_speed" default="0.1"/>
+    <arg name="angle_offset" default="0.0"/>
+    <arg name="feedback" default="False"/>
+    <rosparam command="load" file="$(find ur3_leader_follower)/config/transforms.yaml" />
+    <node pkg="ur3_leader_follower" type="bar_broadcaster_node.py" name="bar_transforms_broadcaster" output="screen"/>
+
+
+
+    <group ns="/leader">
+        <param name="ee_speed" value="$(arg ee_speed)"/>
+        <param name="angle_offset" value="$(arg angle_offset)"/>
+        <param name="feedback" value="$(arg feedback)"/>
+
+        <param name="follower_ip" value="10.10.0.162"/>
+        <param name="follower_receive_port" value="53001"/>
+
+        <param name="leader_ip" value="10.10.0.161"/>
+        <param name="leader_receive_port" value="53002"/>
+        <param name="udp_timeout" value="200.0"/>
+
+        <node pkg="ur3_leader_follower" type="leader_node.py" name="leader_node"
+            output="screen">
+        </node>
+    </group>
+</launch>

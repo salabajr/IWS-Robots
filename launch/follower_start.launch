@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="kp" default="12"/>
+    <arg name="ki" default="0"/>
+    <arg name="kd" default="0"/>
+    <arg name="alpha" default="0.01"/>
+    <arg name="feedback" default="False"/>
+
+    <group ns="/follower">
+        <param name="kp" value="$(arg kp)"/>
+        <param name="ki" value="$(arg ki)"/>
+        <param name="kd" value="$(arg kd)"/>
+        <param name="alpha" value="$(arg alpha)"/>
+        <param name="feedback" value="$(arg feedback)"/>
+
+        <param name="udp_ip" value="10.10.0.162"/>
+        <param name="udp_port" value="53001"/>
+        <param name="udp_timeout" value="100.0"/>
+
+        <param name="leader_ip" value="10.10.0.161"/>
+        <param name="leader_receive_port" value="53002"/>
+
+
+        <node pkg="ur3_leader_follower" type="follower_node.py" name="follower_node"
+            output="screen">
+        </node>
+    </group>
+</launch>

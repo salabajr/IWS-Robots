@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="debug" default="false"/>
+  <include ns="leader" file="$(find ur_robot_driver)/launch/ur3_bringup.launch">
+    
+    <arg name="debug" value="$(arg debug)"/>
+    <arg name="robot_ip" value="10.20.0.25"/>
+    <arg name="controller_config_file" value="$(find ur3_leader_follower)/config/leader_controllers.yaml"/>
+    <arg name="robot_description_file" value="$(find ur3_leader_follower)/launch/load_leader_description.launch"/>
+    <arg name="kinematics_config" value="$(find ur3_leader_follower)/config/leader_calibration.yaml"/>
+    <arg name="tf_prefix" value=""/>
+    <arg name="stopped_controllers" value="pose_based_cartesian_traj_controller pos_joint_traj_controller joint_group_vel_controller"/>
+  </include>
+</launch>

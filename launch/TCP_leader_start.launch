@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="ee_speed" default="0.1"/>
+    <arg name="angle_offset" default="0.0"/>
+    <arg name="feedback" default="False"/>
+    <rosparam command="load" file="$(find ur3_leader_follower)/config/transforms.yaml" />
+    <node pkg="ur3_leader_follower" type="bar_broadcaster_node.py" name="bar_transforms_broadcaster" output="screen"/>
+
+
+
+    <group ns="/leader">
+        <param name="ee_speed" value="$(arg ee_speed)"/>
+        <param name="angle_offset" value="$(arg angle_offset)"/>
+        <param name="feedback" value="$(arg feedback)"/>
+        <node pkg="ur3_leader_follower" type="TCP_leader_node.py" name="leader_node"
+            output="screen">
+        </node>
+    </group>
+</launch>

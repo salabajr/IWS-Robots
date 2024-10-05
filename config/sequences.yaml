@@ -1,0 +1,27 @@
+---
+sequences:
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.2
+
+  - type: "line"
+    dx: 0
+    dy: 0.225
+    dz: 0.05
+
+  - type: "circle"
+    radius: 0.08
+    direction: "cw"
+    revolutions: 5
+
+  - type: "line"
+    dx: 0
+    dy: -0.225
+    dz: -0.05
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.2
+    delay: 1

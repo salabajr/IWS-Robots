@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="follower">
+  <xacro:arg name="kinematics_params" default="$(find ur3_leader_follower)/config/follower_calibration.yaml"/>
+  <xacro:include filename="$(find ur3_with_magnetic_gripper)/urdf/ur3_with_magnetic_gripper_gazebo.xacro"/>
+  <xacro:ur3_with_magnetic_gripper_gazebo
+    kinematics_params="$(arg kinematics_params)"
+    prefix="follower_"
+    x="1.475"
+    y="0.475"
+    z="0.0"
+    roll="0.0"
+    pitch="0.0"
+    yaw="2.35619"
+  />
+</robot>

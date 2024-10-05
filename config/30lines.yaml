@@ -1,0 +1,472 @@
+---
+sequences:
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.2
+
+  - type: "line"
+    dx: 0
+    dy: 0.225
+    dz: 0.05
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.16
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: 0.16
+    
+  - type: "line"
+    dx: 0
+    dy: -0.225
+    dz: -0.05
+
+  - type: "line"
+    dx: 0
+    dy: 0
+    dz: -0.2
+    delay: 1

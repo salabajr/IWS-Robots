@@ -1,0 +1,8 @@
+# Define the goal
+string frame_id # Frame to follow
+---
+# Define the result
+bool success
+---
+# Define feedback
+bool ready_to_move

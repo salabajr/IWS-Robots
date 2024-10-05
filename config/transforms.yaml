@@ -1,0 +1,18 @@
+---
+bar_initial_pose:
+  x: .90
+  y: 0.2485
+  z: 0.099
+  roll: 0
+  pitch: 0
+  yaw: 3.14159
+
+bar_length: 0.404
+
+bar_preload: 0.01
+
+grip_approach_offset: 0.05
+
+grip_start_offset: 0.2
+
+ft_zero_offset: 0.02

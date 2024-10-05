@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="kinematics_params" default="$(find ur_description)/config/ur3/default_kinematics.yaml"/>
+
+  <param name="robot_description" command="$(find xacro)/xacro '$(find ur3_leader_follower)/urdf/leader.xacro'
+    kinematics_params:=$(arg kinematics_params)"/>
+</launch>

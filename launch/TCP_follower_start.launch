@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="kp" default="12"/>
+    <arg name="ki" default="0"/>
+    <arg name="kd" default="0"/>
+    <arg name="alpha" default="0.01"/>
+    <arg name="feedback" default="False"/>
+
+    <group ns="/follower">
+        <param name="kp" value="$(arg kp)"/>
+        <param name="ki" value="$(arg ki)"/>
+        <param name="kd" value="$(arg kd)"/>
+        <param name="alpha" value="$(arg alpha)"/>
+        <param name="feedback" value="$(arg feedback)"/>
+        
+        <node pkg="ur3_leader_follower" type="TCP_follower_node.py" name="follower_node"
+            output="screen">
+        </node>
+    </group>
+</launch>

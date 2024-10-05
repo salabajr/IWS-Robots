@@ -1,0 +1,16 @@
+# Define the goal
+geometry_msgs/PoseStamped[] waypoints # List of waypoints to follow
+ur3_leader_follower/Sequence sequence
+bool first_attempt
+---
+uint8 SIDEA = 0
+uint8 SIDEB = 1
+uint8 SIDEC = 2
+# Define the result
+bool success
+float64 theta_c
+uint16 completed_rev
+uint8 side_name
+---
+# Define feedback
+bool ready_to_move

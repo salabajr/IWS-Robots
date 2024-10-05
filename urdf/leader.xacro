@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="leader">
+  <xacro:arg name="kinematics_params" default="$(find ur3_leader_follower)/config/leader_calibration.yaml"/>
+  <xacro:include filename="$(find ur3_with_magnetic_gripper)/urdf/ur3_with_magnetic_gripper.xacro"/>
+  <xacro:ur3_with_magnetic_gripper
+    kinematics_params="$(arg kinematics_params)"
+    prefix="leader_"
+    x="0.325"
+    y="0.475"
+    z="0.0"
+    roll="0.0"
+    pitch="0.0"
+    yaw="-2.35619"
+  />
+</robot>
